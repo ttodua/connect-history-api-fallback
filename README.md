@@ -71,6 +71,8 @@ var app = express();
 app.use(history());
 ```
 
+When you are using static files middleware (eg. `express.static()` ), you might need to do as shown here: (examples/static-files-and-index-rewrite/index.js)[https://github.com/bripkens/connect-history-api-fallback/blob/main/examples/static-files-and-index-rewrite/index.js]
+
 ## Options
 You can optionally pass options to the library when obtaining the middleware
 
